@@ -84,6 +84,7 @@
     color: #272727;
     font-weight: 800;
     font-size: 40px;
+    margin-bottom: 20px;
 }
 .featured-paragraph{
     color: rgba(39, 39, 39, 0.60);
@@ -220,14 +221,7 @@
 
 
 .subscription{
-    /* background-image: url("/images/backup/Rectangle\ 9.png"); */
-    margin: 0 190px;
-    /* border-radius: 8px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 75%;
-    height: 449px;
-    flex-shrink: 0; */
+    margin: 125px 190px;  
 }
 
 .sub-title{
@@ -244,6 +238,7 @@
 
 .sub-paragraph{
     color: rgba(39, 39, 39, 0.60);
+    margin-top: 10px;
     text-align: center;
     font-family: Lato;
     font-size: 18px;
@@ -289,3 +284,50 @@
 
 /* Subscription section ends */
 /* Main section ends */
+
+
+/* Footer section starts */
+
+.site-footer{
+    background: #111010;
+    margin-top: 125px;
+    width: 100%;
+    height: 449px;
+    flex-shrink: 0;
+}
+
+#footer-title-design{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.footer-title{
+    padding-top: 128px;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.footer-paragraph{
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-caption{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 32px;
+}
